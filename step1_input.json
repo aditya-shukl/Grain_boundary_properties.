@@ -1,0 +1,366 @@
+{
+    "00": {
+        "DataContainerName": "DataContainer",
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Create Data Container",
+        "Filter_Name": "CreateDataContainer",
+        "Filter_Uuid": "{816fbe6b-7c38-581b-b149-3f839fb65b93}"
+    },
+    "01": {
+        "BoxDimensions": "Extents:\nX Extent: 0 to 140 (dimension: 141)\nY Extent: 0 to 140 (dimension: 141)\nZ Extent: 0 to 32 (dimension: 33)\nBounds:\nX Range: -0.5 to 140.5 (delta: 141)\nY Range: -0.5 to 140.5 (delta: 141)\nZ Range: -0.5 to 32.5 (delta: 33)\n",
+        "Dimensions": {
+            "x": 141,
+            "y": 141,
+            "z": 33
+        },
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Create Geometry (Image)",
+        "Filter_Name": "CreateImageGeometry",
+        "Filter_Uuid": "{f2132744-3abb-5d66-9cd9-c9a233b5c4aa}",
+        "Origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "Resolution": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "SelectedDataContainer": "DataContainer"
+    },
+    "02": {
+        "AttributeMatrixType": 3,
+        "CreatedAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "DataContainer"
+        },
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Create Attribute Matrix",
+        "Filter_Name": "CreateAttributeMatrix",
+        "Filter_Uuid": "{93375ef0-7367-5372-addc-baa019b1b341}",
+        "TupleDimensions": {
+            "Column Headers": [
+                "0",
+                "1",
+                "2"
+            ],
+            "DefaultColCount": 0,
+            "DefaultRowCount": 0,
+            "HasDynamicCols": true,
+            "HasDynamicRows": false,
+            "MinColCount": 0,
+            "MinRowCount": 0,
+            "Row Headers": [
+                "0"
+            ],
+            "Table Data": [
+                [
+                    141,
+                    141,
+                    33
+                ]
+            ]
+        }
+    },
+    "03": {
+        "Dataset Import Info Array": [
+            {
+                "Component Dimensions": "3",
+                "Dataset Path": "/ea"
+            },
+            {
+                "Component Dimensions": "1",
+                "Dataset Path": "/intensity"
+            },
+            {
+                "Component Dimensions": "1",
+                "Dataset Path": "/vol_st_ysz"
+            },
+            {
+                "Component Dimensions": "1",
+                "Dataset Path": "/phaseid"
+            }
+        ],
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Import HDF5 Dataset",
+        "Filter_Name": "ImportHDF5Dataset",
+        "Filter_Uuid": "{9e98c3b0-5707-5a3b-b8b5-23ef83b02896}",
+        "HDF5FilePath": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\october\\data\\raw_data_strain_corrected\\post_zr_corrected_strain.h5",
+        "SelectedAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "04": {
+        "DestinationArrayName": "phaseid",
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Threshold Objects",
+        "Filter_Name": "MultiThresholdObjects",
+        "Filter_Uuid": "{014b7300-cf36-5ede-a751-5faf9b119dae}",
+        "SelectedThresholds": [
+            {
+                "Attribute Array Name": "phaseid",
+                "Attribute Matrix Name": "CellData",
+                "Comparison Operator": 1,
+                "Comparison Value": 1,
+                "Data Container Name": "DataContainer"
+            }
+        ]
+    },
+    "05": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Convert AttributeArray Data Type",
+        "Filter_Name": "ConvertData",
+        "Filter_Uuid": "{f4ba5fa4-bb5c-5dd1-9429-0dd86d0ecb37}",
+        "OutputArrayName": "phaseid",
+        "ScalarType": 4,
+        "SelectedCellArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "phaseid",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "06": {
+        "Dataset Import Info Array": [
+            {
+                "Component Dimensions": "",
+                "Dataset Path": "/fluore_zr_post"
+            }
+        ],
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Import HDF5 Dataset",
+        "Filter_Name": "ImportHDF5Dataset",
+        "Filter_Uuid": "{9e98c3b0-5707-5a3b-b8b5-23ef83b02896}",
+        "HDF5FilePath": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\281123\\fluore_ni_post.h5",
+        "SelectedAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "07": {
+        "Dataset Import Info Array": [
+            {
+                "Component Dimensions": "1",
+                "Dataset Path": "/ni_post_mask"
+            }
+        ],
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Import HDF5 Dataset",
+        "Filter_Name": "ImportHDF5Dataset",
+        "Filter_Uuid": "{9e98c3b0-5707-5a3b-b8b5-23ef83b02896}",
+        "HDF5FilePath": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\281123\\nipost_mask.h5",
+        "SelectedAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "08": {
+        "DestinationArrayName": "Mask",
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Threshold Objects",
+        "Filter_Name": "MultiThresholdObjects",
+        "Filter_Uuid": "{014b7300-cf36-5ede-a751-5faf9b119dae}",
+        "SelectedThresholds": [
+            {
+                "Attribute Array Name": "phaseid",
+                "Attribute Matrix Name": "CellData",
+                "Comparison Operator": 1,
+                "Comparison Value": 0,
+                "Data Container Name": "DataContainer"
+            }
+        ]
+    },
+    "09": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Rename Attribute Array",
+        "Filter_Name": "RenameAttributeArray",
+        "Filter_Uuid": "{53a5f731-2858-5e3e-bd43-8f2cf45d90ec}",
+        "NewArrayName": "EulerAngles",
+        "SelectedArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "ea",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "10": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Convert AttributeArray Data Type",
+        "Filter_Name": "ConvertData",
+        "Filter_Uuid": "{f4ba5fa4-bb5c-5dd1-9429-0dd86d0ecb37}",
+        "OutputArrayName": "EulerAngles",
+        "ScalarType": 8,
+        "SelectedCellArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "11": {
+        "CellEnsembleAttributeMatrixName": "EnsembleAttributeMatrix",
+        "CrystalStructuresArrayName": "CrystalStructures",
+        "DataContainerName": "DataContainer",
+        "Ensemble": [
+            {
+                "CrystalStructure": 1,
+                "PhaseName": "cubic",
+                "PhaseType": 0
+            }
+        ],
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Create Ensemble Info",
+        "Filter_Name": "CreateEnsembleInfo",
+        "Filter_Uuid": "{2a0bfcd3-2517-5117-b164-964dfac8fe22}",
+        "PhaseNamesArrayName": "PhaseNames",
+        "PhaseTypesArrayName": "PhaseTypes"
+    },
+    "12": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "DataContainer"
+        },
+        "CellIPFColorsArrayName": "IPFColor",
+        "CellPhasesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "phaseid",
+            "Data Container Name": "DataContainer"
+        },
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "EnsembleAttributeMatrix",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "DataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Generate IPF Colors",
+        "Filter_Name": "GenerateIPFColors",
+        "Filter_Uuid": "{a50e6532-8075-5de5-ab63-945feb0de7f7}",
+        "GoodVoxelsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Mask",
+            "Data Container Name": "DataContainer"
+        },
+        "ReferenceDir": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        },
+        "UseGoodVoxels": 1
+    },
+    "13": {
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Convert Orientation Representation",
+        "Filter_Name": "ConvertOrientations",
+        "Filter_Uuid": "{e5629880-98c4-5656-82b8-c9fe2b9744de}",
+        "InputOrientationArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "euler",
+            "Data Container Name": "DataContainer"
+        },
+        "InputType": 0,
+        "OutputOrientationArrayName": "",
+        "OutputType": 1
+    },
+    "14": {
+        "Dataset Import Info Array": [
+        ],
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Import HDF5 Dataset",
+        "Filter_Name": "ImportHDF5Dataset",
+        "Filter_Uuid": "{9e98c3b0-5707-5a3b-b8b5-23ef83b02896}",
+        "HDF5FilePath": "/Users/Issac/Documents/Dream.3D/Al-Cu-485_withQuat.h5",
+        "SelectedAttributeMatrix": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "",
+            "Data Container Name": "ImageDataContainer"
+        }
+    },
+    "15": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Rename Attribute Array",
+        "Filter_Name": "RenameAttributeArray",
+        "Filter_Uuid": "{53a5f731-2858-5e3e-bd43-8f2cf45d90ec}",
+        "NewArrayName": "Confidence Index",
+        "SelectedArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Completeness",
+            "Data Container Name": "ImageDataContainer"
+        }
+    },
+    "16": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "DataContainer"
+        },
+        "CellPhasesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "phaseid",
+            "Data Container Name": "DataContainer"
+        },
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "EnsembleAttributeMatrix",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "DataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Export Pole Figure Images",
+        "Filter_Name": "WritePoleFigure",
+        "Filter_Uuid": "{a10bb78e-fcff-553d-97d6-830a43c85385}",
+        "GenerationAlgorithm": 0,
+        "GoodVoxelsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Mask",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "ImageLayout": 2,
+        "ImagePrefix": "",
+        "ImageSize": 512,
+        "LambertSize": 64,
+        "MaterialNameArrayPath": {
+            "Attribute Matrix Name": "EnsembleAttributeMatrix",
+            "Data Array Name": "PhaseNames",
+            "Data Container Name": "DataContainer"
+        },
+        "NumColors": 32,
+        "OutputPath": "C:/Users/shuk/OneDrive - Danmarks Tekniske Universitet/current_project",
+        "Title": "polefigure",
+        "UseGoodVoxels": 0
+    },
+    "17": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\october\\data\\raw_data_strain_corrected\\step1_input_post_ysz_strain_corrected.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "PipelineBuilder": {
+        "Name": "step1_input",
+        "Number_Filters": 18,
+        "Version": 6
+    }
+}

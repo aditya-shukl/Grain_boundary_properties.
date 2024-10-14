@@ -1,0 +1,886 @@
+{
+    "0": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Read DREAM.3D Data File",
+        "Filter_Name": "DataContainerReader",
+        "Filter_Uuid": "{043cbde5-3878-5718-958f-ae75714df0df}",
+        "InputFile": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\september\\020924\\curvature\\meshed_100_iter_pre.dream3d",
+        "InputFileDataContainerArrayProxy": {
+            "Data Containers": [
+                {
+                    "Attribute Matricies": [
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "BoundaryCells",
+                                    "Object Type": "DataArray<int8_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "BoundaryCells2",
+                                    "Object Type": "DataArray<int8_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        3
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "EulerAngles",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "FeatureIds",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "GBManhattanDistances",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        3
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "IPFColor",
+                                    "Object Type": "DataArray<uint8_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        3
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "IPFColor2",
+                                    "Object Type": "DataArray<uint8_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "KernelAverageMisorientations",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "Mask",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "ParentIds",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "ni_phase",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "oldfis",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "phaseid",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "phaseid_c",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        4
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "quats",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "ysz_phase",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/CellData",
+                                    "Tuple Dimensions": [
+                                        138,
+                                        138,
+                                        23
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "CellData",
+                            "Type": 3
+                        },
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "CrystalStructures",
+                                    "Object Type": "DataArray<uint32_t>",
+                                    "Path": "/DataContainers/DataContainer/EnsembleAttributeMatrix",
+                                    "Tuple Dimensions": [
+                                        2
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "PhaseNames",
+                                    "Object Type": "StringDataArray",
+                                    "Path": "/DataContainers/DataContainer/EnsembleAttributeMatrix",
+                                    "Tuple Dimensions": [
+                                        2
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "PhaseTypes",
+                                    "Object Type": "DataArray<uint32_t>",
+                                    "Path": "/DataContainers/DataContainer/EnsembleAttributeMatrix",
+                                    "Tuple Dimensions": [
+                                        2
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "EnsembleAttributeMatrix",
+                            "Type": 11
+                        },
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "Active",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "AvgMisorientations",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        4
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "AvgQuats",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "EquivalentDiameters",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "EquivalentDiameters2",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        3
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "EulerAngles",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "MisorientationList",
+                                    "Object Type": "NeighborList<T>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "MisorientationList_NumNeighbors",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NeighborList",
+                                    "Object Type": "NeighborList<T>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NumElements",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NumElements2",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NumNeighbors",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NumNeighbors2",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "ParentIds",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "Phases",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "SharedSurfaceAreaList",
+                                    "Object Type": "NeighborList<T>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "SurfaceFeatures",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "SurfaceFeatures2",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "Volumes",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "Volumes2",
+                                    "Object Type": "DataArray<float>",
+                                    "Path": "/DataContainers/DataContainer/Grain Data",
+                                    "Tuple Dimensions": [
+                                        548
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "Grain Data",
+                            "Type": 7
+                        },
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "Active",
+                                    "Object Type": "DataArray<bool>",
+                                    "Path": "/DataContainers/DataContainer/NewCellFeatureData",
+                                    "Tuple Dimensions": [
+                                        791
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "NewCellFeatureData",
+                            "Type": 7
+                        }
+                    ],
+                    "Flag": 2,
+                    "Name": "DataContainer",
+                    "Type": 0
+                },
+                {
+                    "Attribute Matricies": [
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        3
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "FaceCentroids",
+                                    "Object Type": "DataArray<double>",
+                                    "Path": "/DataContainers/TriangleDataContainer/FaceData",
+                                    "Tuple Dimensions": [
+                                        295712
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        2
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "FaceLabels",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/TriangleDataContainer/FaceData",
+                                    "Tuple Dimensions": [
+                                        295712
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        3
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "FaceNormals",
+                                    "Object Type": "DataArray<double>",
+                                    "Path": "/DataContainers/TriangleDataContainer/FaceData",
+                                    "Tuple Dimensions": [
+                                        295712
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "FeatureFaceId",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/TriangleDataContainer/FaceData",
+                                    "Tuple Dimensions": [
+                                        295712
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "FaceData",
+                            "Type": 2
+                        },
+                        {
+                            "Data Arrays": [
+                            ],
+                            "Flag": 2,
+                            "Name": "FaceFeatureData",
+                            "Type": 6
+                        },
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        2
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "FaceLabels",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/TriangleDataContainer/FaceFeatureData2",
+                                    "Tuple Dimensions": [
+                                        3388
+                                    ],
+                                    "Version": 2
+                                },
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NumTriangles",
+                                    "Object Type": "DataArray<int32_t>",
+                                    "Path": "/DataContainers/TriangleDataContainer/FaceFeatureData2",
+                                    "Tuple Dimensions": [
+                                        3388
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "FaceFeatureData2",
+                            "Type": 6
+                        },
+                        {
+                            "Data Arrays": [
+                                {
+                                    "Component Dimensions": [
+                                        1
+                                    ],
+                                    "Flag": 2,
+                                    "Name": "NodeType",
+                                    "Object Type": "DataArray<int8_t>",
+                                    "Path": "/DataContainers/TriangleDataContainer/VertexData",
+                                    "Tuple Dimensions": [
+                                        132512
+                                    ],
+                                    "Version": 2
+                                }
+                            ],
+                            "Flag": 2,
+                            "Name": "VertexData",
+                            "Type": 0
+                        }
+                    ],
+                    "Flag": 2,
+                    "Name": "TriangleDataContainer",
+                    "Type": 4
+                }
+            ]
+        },
+        "OverwriteExistingDataContainers": 0
+    },
+    "1": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Convert AttributeArray Data Type",
+        "Filter_Name": "ConvertData",
+        "Filter_Uuid": "{f4ba5fa4-bb5c-5dd1-9429-0dd86d0ecb37}",
+        "OutputArrayName": "pv2",
+        "ScalarType": 4,
+        "SelectedCellArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "phaseid_volume",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "2": {
+        "DestinationArrayName": "phaseid",
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Threshold Objects (Advanced)",
+        "Filter_Name": "MultiThresholdObjects2",
+        "Filter_Uuid": "{686d5393-2b02-5c86-b887-dd81a8ae80f2}",
+        "SelectedThresholds": {
+            "Attribute Matrix Name": "CellData",
+            "Data Container Name": "DataContainer",
+            "Thresholds": [
+                {
+                    "Attribute Array Name": "phaseid",
+                    "Comparison Operator": 2,
+                    "Comparison Value": 1,
+                    "Union Operator": 0
+                }
+            ]
+        }
+    },
+    "3": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Convert AttributeArray Data Type",
+        "Filter_Name": "ConvertData",
+        "Filter_Uuid": "{f4ba5fa4-bb5c-5dd1-9429-0dd86d0ecb37}",
+        "OutputArrayName": "mask_ni2",
+        "ScalarType": 4,
+        "SelectedCellArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Mask_ni",
+            "Data Container Name": "DataContainer"
+        }
+    },
+    "4": {
+        "ComputeGaussianCurvature": 1,
+        "ComputeMeanCurvature": 1,
+        "ComputePrincipalDirectionVectors": 1,
+        "FaceAttributeMatrixPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Find Feature Face Curvature",
+        "Filter_Name": "FeatureFaceCurvatureFilter",
+        "Filter_Uuid": "{a69d8d43-5be9-59a0-b997-81773a635673}",
+        "NRing": 12,
+        "SurfaceMeshFaceLabelsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FaceLabels",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "SurfaceMeshFaceNormalsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FaceNormals",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "SurfaceMeshFeatureFaceIdsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FeatureFaceId",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "SurfaceMeshGaussianCurvaturesArrayName": "GaussianCurvatures",
+        "SurfaceMeshMeanCurvaturesArrayName": "MeanCurvatures",
+        "SurfaceMeshPrincipalCurvature1sArrayName": "PrincipalCurvature1",
+        "SurfaceMeshPrincipalCurvature2sArrayName": "PrincipalCurvature2",
+        "SurfaceMeshPrincipalDirection1sArrayName": "PrincipalDirection1",
+        "SurfaceMeshPrincipalDirection2sArrayName": "PrincipalDirection2",
+        "SurfaceMeshTriangleCentroidsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FaceCentroids",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "UseNormalsForCurveFitting": 1
+    },
+    "5": {
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "EnsembleAttributeMatrix",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "DataContainer"
+        },
+        "FeatureEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "DataContainer"
+        },
+        "FeaturePhasesArrayPath": {
+            "Attribute Matrix Name": "Grain Data",
+            "Data Array Name": "Phases",
+            "Data Container Name": "DataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Generate IPF Colors (Face)",
+        "Filter_Name": "GenerateFaceIPFColoring",
+        "Filter_Uuid": "{0a121e03-3922-5c29-962d-40d88653f4b6}",
+        "SurfaceMeshFaceIPFColorsArrayName": "IPFColorsface",
+        "SurfaceMeshFaceLabelsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FaceLabels",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "SurfaceMeshFaceNormalsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FaceNormals",
+            "Data Container Name": "TriangleDataContainer"
+        }
+    },
+    "6": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\september\\020924\\curvature\\curvature_100_iter_pre.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "7": {
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": false,
+        "Filter_Human_Label": "Export STL Files from Triangle Geometry",
+        "Filter_Name": "WriteStlFile",
+        "Filter_Uuid": "{b9134758-d5e5-59dd-9907-28d23e0e0143}",
+        "OutputStlDirectory": "C:\\Users\\shuk\\OneDrive - Danmarks Tekniske Universitet\\projects\\nizr\\june\\dream3d_files",
+        "OutputStlPrefix": "mesh",
+        "SurfaceMeshFaceLabelsArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "FaceLabels",
+            "Data Container Name": "TriangleDataContainer"
+        },
+        "SurfaceMeshFacePhasesArrayPath": {
+            "Attribute Matrix Name": "FaceData",
+            "Data Array Name": "Phases",
+            "Data Container Name": "TriangleDataContainer"
+        }
+    },
+    "PipelineBuilder": {
+        "Name": "find_curvature",
+        "Number_Filters": 8,
+        "Version": 6
+    }
+}
